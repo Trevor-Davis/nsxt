@@ -16,7 +16,7 @@ Invoke-WebRequest -uri "https://raw.githubusercontent.com/Trevor-Davis/nsxt/main
 ####################
 #DELETE THIS
 #####################
-Copy-Item "C:\Users\avs-admin\Documents\GitHub\nsxt\*" -Destination "$Folder"
+#Copy-Item "C:\Users\avs-admin\Documents\GitHub\nsxt\*" -Destination "$Folder"
 
 Clear-host
 
