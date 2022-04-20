@@ -13,9 +13,6 @@ $filename2 = "routetable.ps1"
 Invoke-WebRequest -uri "https://raw.githubusercontent.com/Trevor-Davis/nsxt/main/$filename2" `
 -OutFile $Folder\$filename2
 
-####################
-#DELETE THIS
-#####################
 #Copy-Item "C:\Users\avs-admin\Documents\GitHub\nsxt\*" -Destination "$Folder"
 
 Clear-host
